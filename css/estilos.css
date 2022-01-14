@@ -48,11 +48,7 @@ figure{
 }
 .hero{
 	height: 300px;
-	/* background-image:url('../images/hero.jpg'); */
 	background-color:rgba(29, 37, 44, 0.980); 
-	/* background-size: 450px 300px; */
-	/* background-repeat: no-repeat; */
-	/* background-position-x:right;  */
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
@@ -123,6 +119,9 @@ h2{
 	width: 450px;
 	overflow: hidden;
 	background: #FAFAFA;
+}
+.event-title{
+	margin: 0;
 }
 .event-image{
 	width: 500px;
