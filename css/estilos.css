@@ -103,6 +103,18 @@ h2{
 }
 .project-imageContainer{
 	width: 500px;
+	display: flex;
+	justify-content: center;
+}
+.project-imageContainer img{
+	width: 75%;
+	max-height: 270px;
+	object-fit: contain;
+}
+.courses{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
 }
 .event-list-title{
 	margin-left: 50px;
@@ -176,6 +188,9 @@ h2{
 }
 .social-link.instagram{
 	background-image: url('../images/instagram.svg');
+}
+.social-link.linkedin{
+	background-image: url('../images/linkedin.svg');
 }
 .container{
 	margin: 0 auto;
