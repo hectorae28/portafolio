@@ -202,8 +202,159 @@ h2{
 	flex-wrap: inherit;
 }
 
+@media screen and (max-width: 1023px) {
+	.menu {
+		display: none;
+	}
+	
+	.header {
+		height: 200px;
+		justify-content: center;
+	}
+	
+	.container {
+		width: 95%;
+	}
+	
+	h1 {
+		font-size: 72px;
+		width: 100%;
+		text-align: center;
+	}
+	
+	.hero {
+		height: auto;
+		justify-content: center;
+	}
+	
+	.hero-image {
+		width: 100%;
+		height: 650px;
+	}
+	
+	h2 {
+		text-align: center;
+		font-size: 37px;
+	}
+	
+	.project {
+		flex-direction: column;
+	}
+	
+	.project-title {
+		font-size: 60px;
+	}
+	
+	.project-course {
+		font-size: 30px;
+	}
+	
+	.project-date, .project-url {
+		font-size: 35px;
+	}
+	
+	.project-details {
+		width: 85%;
+	}
+	
+	.project-description {
+		font-size: 30px;
+	}
+	
+	.project-imageContainer {
+		width: 100%;
+	}
+	
+	.project-imageContainer img {
+		max-height: 500px;
+	}
+	
+	.courses {
+		justify-content: center;
+		flex-direction: column;
+		align-items: center;
+		width: 100%;
+		flex-wrap: nowrap;
+	}
+	
+	.event {
+		width: 80%;
+		height: 100%;
+	}
+	
+	.event-image {
+		width: 100%;
+		height: 46%;
+	}
+	
+	.event-detail {
+		margin-top: -302px;
+	}
+	
+	.event-title {
+		font-size: 2rem;
+	}
+	
+	.event-description {
+		font-size: 2rem;
+	}
+	
+	.event-url {
+		font-size: 2rem;
+	}
+	
+	figure {
+		height: inherit;
+	}
+	
+	.contact {
+		height: 300px;
+		flex-wrap: wrap;
+	}
+	
+	.social {
+		width: 90%;
+		justify-content: center;
+	}
+	
+
+	
+	.logo img {
+		width: 70%;
+		height: auto;
+		object-fit: cover;
+		align-self: center;
+		justify-self: center;
+	}
+	
+	
+	
+	.logo {
+		align-self: center;
+		display: flex;
+		width: 100%;
+		justify-content: center;
+	}
+
+	
+	.contacto-text {
+		font-size: 40px;
+	}
+
+	.project {
+		border: 3px solid #ccc;
+	}
+  
+	.event-url {
+		border: 3px solid;
+	}
+  
+}
 /*
 ****************fuentes********************
 font-family: 'Source Sans Pro', sans-serif;
 font-family: 'Ubuntu', sans-serif;
+
+
+
 */
