@@ -25,8 +25,16 @@ const data={
             "description":"Practica de React Native, navegacion de pantallas y consumo de Api https://jsonplaceholder.typicode.com/",
             "img_src":"images/twitter-practice.png",
             "img_alt":"twitter-practice"
-
-        }
+        },
+        {
+            "title":"Merch-Store",
+            "course":"React/Firebase",
+            "deploy":"https://merch-store-501f1.web.app/",
+            "repo":"https://github.com/hectorae28/merch-store",
+            "description":"Tienda Online de Cubos",
+            "img_src":"images/Qiyuan_S_4x4.jpg",
+            "img_alt":"cube_rubik"
+        },
     ],
     "collabprojects":[
         {
