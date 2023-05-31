@@ -35,6 +35,24 @@ const data={
             "img_src":"images/Qiyuan_S_4x4.jpg",
             "img_alt":"cube_rubik"
         },
+        {
+            "title":"Django Rest Api",
+            "course":"Django Rest framework",
+            "deploy":"https://django-crud-api.onrender.com/api/",
+            "repo":"https://github.com/hectorae28/django-crud-api",
+            "description":"Rest Api de control de stock y de pedidos",
+            "img_src":"images/Notepad_icon.svg",
+            "img_alt":"Notepad_icon.svg"
+        },
+        {
+            "title":"Remevenmx",
+            "course":"Nextjs",
+            "deploy":"https://remevenmx.com/",
+            "repo":"https://github.com/hectorae28/remevenmex-web",
+            "description":"Landing Page",
+            "img_src":"https://remevenmx.com/_next/static/images/remeLogo-f3d523fc2cae11469960bb83ffa41a34.png",
+            "img_alt":"Remevenmx_Logo"
+        }
     ],
     "collabprojects":[
         {
