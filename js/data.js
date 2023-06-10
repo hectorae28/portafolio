@@ -52,7 +52,17 @@ const data={
             "description":"Landing Page",
             "img_src":"https://remevenmx.com/_next/static/images/remeLogo-f3d523fc2cae11469960bb83ffa41a34.png",
             "img_alt":"Remevenmx_Logo"
+        },
+        {
+            "title":"Acher",
+            "course":"Nextjs + taildwindcss",
+            "deploy":"https://landing-test-six.vercel.app/",
+            "repo":"https://github.com/hectorae28/landing-test",
+            "description":"Landing Page",
+            "img_src":"https://landing-test-six.vercel.app/Removal-logo4.png",
+            "img_alt":"Acher_Logo"
         }
+        
     ],
     "collabprojects":[
         {

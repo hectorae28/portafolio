@@ -1,26 +1,34 @@
-body{
+body {
 	font-family: 'Source Sans Pro', sans-serif;
 	margin: 0;
 }
 
-h1,h2,h3,h4,h5,h6{
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
 	font-family: 'Ubuntu', sans-serif;
 }
 
-h1{
+h1 {
 	line-height: 1.5em;
 	font-size: 40px;
 	letter-spacing: -.2px;
-	margin:0 10px;
+	margin: 0 10px;
 }
-h1 strong{
+
+h1 strong {
 	color: #0af;
 }
-figure{
+
+figure {
 	margin: 0;
 	padding: 0;
 }
-.header{
+
+.header {
 	background-color: rgb(29, 37, 44);
 	color: white;
 	display: flex;
@@ -28,10 +36,12 @@ figure{
 	align-items: center;
 	height: 80px;
 }
-.menu{
+
+.menu {
 	height: inherit;
 }
-.header a{
+
+.header a {
 	color: white;
 	text-decoration: none;
 	height: inherit;
@@ -39,40 +49,53 @@ figure{
 	align-items: center;
 	padding: 0 15px
 }
-.header ol,li{
+
+.header ol,
+li {
 	display: flex;
 	height: inherit;
 	margin: 0;
- 	padding: 0;
- 	list-style: none;
+	padding: 0;
+	list-style: none;
 }
-.hero{
+
+.hero {
 	height: 300px;
-	background-color:rgba(29, 37, 44, 0.980); 
+	background-color: rgba(29, 37, 44, 0.980);
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
+	color: white;
 }
-.hero-image{
-	object-fit:cover;
-} 
-h2{
-	margin:20px;
-	text-transform:uppercase;
+
+.social-hero {
+	margin-left: 10px;
+}
+
+.hero-image {
+	object-fit: cover;
+}
+
+h2 {
+	margin: 20px;
+	text-transform: uppercase;
 	color: #0af;
 	font-family: 'Source Sans Pro', sans-serif;
 	font-weight: bold;
-	margin-bottom: 40px; 
+	margin-bottom: 40px;
 }
-.portfolio{
-	background: #FAFAFA;  
-	padding: 20px; 
+
+.portfolio {
+	background: #FAFAFA;
+	padding: 20px;
 }
-#personal_projects{
+
+#personal_projects {
 	display: flex;
 	flex-direction: column-reverse;
 }
-.project{
+
+.project {
 	border: 1px solid #ccc;
 	border-radius: 10px;
 	margin-bottom: 15px;
@@ -81,54 +104,67 @@ h2{
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	
+
 }
-.project-title{
+
+.project-title {
 	margin: 0;
-	margin-bottom:15px;
+	margin-bottom: 15px;
 	font-size: 30px;
 }
-.project-course{
+
+.project-course {
 	margin: 10px 0;
-	color:#999;
+	color: #999;
 }
-.project-date,.project-url{
+
+.project-date,
+.project-url {
 	margin: 5px 0;
 }
-.project-url span{
+
+.project-url span {
 	color: #999;
 	text-decoration: underline;
 }
-.project-description{
+
+.project-description {
 	margin: 20px 0;
 }
-.project-details{
+
+.project-details {
 	width: 500px;
 }
-.project-imageContainer{
+
+.project-imageContainer {
 	width: 500px;
 	display: flex;
 	justify-content: center;
 }
-.project-imageContainer img{
+
+.project-imageContainer img {
 	width: 75%;
 	max-height: 270px;
 	object-fit: contain;
 }
-.courses{
+
+.courses {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-evenly;
 }
-.event-list-title{
+
+.event-list-title {
 	margin-left: 50px;
 }
-.event-list{
+
+.event-list {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-between;
 }
-.event{
+
+.event {
 	border: 1px solid #ccc;
 	border-radius: 5px;
 	margin: 10px;
@@ -136,27 +172,32 @@ h2{
 	overflow: hidden;
 	background: #FAFAFA;
 }
-.event-title{
+
+.event-title {
 	margin: 0;
 }
-.event-image{
+
+.event-image {
 	width: 500px;
 	height: 200px;
- 	object-fit:cover;
+	object-fit: cover;
 }
-.event-detail{
+
+.event-detail {
 	margin: 20px;
-	margin-top:-50px;
+	margin-top: -50px;
 	border-radius: 5px;
 	background: white;
 	position: relative;
 	padding: 20px;
 	text-align: center;
 }
-.event-description{
+
+.event-description {
 	text-align: left;
 }
-.event-url{
+
+.event-url {
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -166,7 +207,8 @@ h2{
 	text-decoration: none;
 	color: #0af;
 }
-.contact{
+
+.contact {
 	background: #00aaff;
 	color: white;
 	height: 100px;
@@ -175,28 +217,35 @@ h2{
 	justify-content: space-between;
 	padding: 15px;
 }
-.social{
-	display:flex;
+
+.social {
+	display: flex;
 }
-.social-link{
+
+.social-link {
 	width: 50px;
 	height: 50px;
 	margin: 5px;
 	background-size: 50px 50px;
 }
-.social-link.twitter{
+
+.social-link.twitter {
 	background-image: url('../images/twitter.svg');
 }
-.social-link.github{
+
+.social-link.github {
 	background-image: url('../images/github.svg');
 }
-.social-link.instagram{
+
+.social-link.instagram {
 	background-image: url('../images/instagram.svg');
 }
-.social-link.linkedin{
+
+.social-link.linkedin {
 	background-image: url('../images/linkedin.svg');
 }
-.container{
+
+.container {
 	margin: 0 auto;
 	width: 1000px;
 	height: inherit;
@@ -210,69 +259,76 @@ h2{
 	.menu {
 		display: none;
 	}
-	
+
 	.header {
 		height: 200px;
 		justify-content: center;
 	}
-	
+
 	.container {
 		width: 95%;
 	}
-	
+
 	h1 {
 		font-size: 72px;
 		width: 100%;
 		text-align: center;
 	}
-	
+
 	.hero {
 		height: auto;
 		justify-content: center;
 	}
-	
+
+	.hero-info {
+		display: inherit;
+		flex-direction: column;
+		align-items: center;
+	}
+
 	.hero-image {
 		width: 100%;
 		height: 650px;
 	}
-	
+
 	h2 {
 		text-align: center;
 		font-size: 37px;
 	}
-	
+
 	.project {
 		flex-direction: column;
 	}
-	
+
 	.project-title {
 		font-size: 60px;
 	}
-	
+
 	.project-course {
 		font-size: 30px;
 	}
-	
-	.project-date, .project-url {
+
+	.project-date,
+	.project-url {
 		font-size: 35px;
 	}
-	
+
 	.project-details {
 		width: 85%;
 	}
-	
+
 	.project-description {
 		font-size: 30px;
 	}
-	
+
 	.project-imageContainer {
 		width: 100%;
 	}
-	
+
 	.project-imageContainer img {
 		max-height: 500px;
 	}
-	
+
 	.courses {
 		justify-content: center;
 		flex-direction: column;
@@ -280,49 +336,49 @@ h2{
 		width: 100%;
 		flex-wrap: nowrap;
 	}
-	
+
 	.event {
 		width: 80%;
 		height: 100%;
 	}
-	
+
 	.event-image {
 		width: 100%;
 		height: 46%;
 	}
-	
+
 	.event-detail {
 		margin-top: -302px;
 	}
-	
+
 	.event-title {
 		font-size: 2rem;
 	}
-	
+
 	.event-description {
 		font-size: 2rem;
 	}
-	
+
 	.event-url {
 		font-size: 2rem;
 	}
-	
+
 	figure {
 		height: inherit;
 	}
-	
+
 	.contact {
 		height: 300px;
 		flex-wrap: wrap;
 	}
-	
+
 	.social {
 		width: 90%;
 		justify-content: center;
 	}
-	
 
-	
+
+
 	.logo img {
 		width: 70%;
 		height: auto;
@@ -330,9 +386,9 @@ h2{
 		align-self: center;
 		justify-self: center;
 	}
-	
-	
-	
+
+
+
 	.logo {
 		align-self: center;
 		display: flex;
@@ -340,7 +396,7 @@ h2{
 		justify-content: center;
 	}
 
-	
+
 	.contacto-text {
 		font-size: 40px;
 	}
@@ -348,12 +404,13 @@ h2{
 	.project {
 		border: 3px solid #ccc;
 	}
-  
+
 	.event-url {
 		border: 3px solid;
 	}
-  
+
 }
+
 /*
 ****************fuentes********************
 font-family: 'Source Sans Pro', sans-serif;
