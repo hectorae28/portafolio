@@ -38,7 +38,6 @@ const data={
         {
             "title":"Django Rest Api",
             "course":"Django Rest framework",
-            "deploy":"https://django-crud-api.onrender.com/api/",
             "repo":"https://github.com/hectorae28/django-crud-api",
             "description":"Rest Api de control de stock y de pedidos",
             "img_src":"images/Notepad_icon.svg",
@@ -47,10 +46,9 @@ const data={
         {
             "title":"Remevenmx",
             "course":"Nextjs",
-            "deploy":"https://remevenmx.com/",
             "repo":"https://github.com/hectorae28/remevenmex-web",
             "description":"Landing Page",
-            "img_src":"https://remevenmx.com/_next/static/images/remeLogo-f3d523fc2cae11469960bb83ffa41a34.png",
+            "img_src":"images/remevenmx.png",
             "img_alt":"Remevenmx_Logo"
         },
         {
@@ -80,6 +78,31 @@ const data={
             "description":"Demo de una app de funeraria",
             "img_src":"images/inmortal.png",
             "img_alt":"inmortal_logo"
+        },
+        {
+            "title":"Finami App",
+            "course":"React Native/TypeScript/Redux/sqlLite",
+            "deploy":"https://play.google.com/store/apps/details?id=com.decode9.finamiapp&pcampaignid=web_share",
+            "repo":"https://github.com/the-empire-workspace/finami-app",
+            "description":"App de finanzas",
+            "img_src":"images/finami-logo.svg",
+            "img_alt":"finami_logo"
+        },
+        {
+          "title":"Finami Web",
+          "course":"Nextjs/TypeScript/Scss",
+          "deploy":"https://finami.app/",
+          "description":"Web",
+          "img_src":"images/finami-logo.svg",
+          "img_alt":"finami_logo"
+        },
+        {
+          "title":"TheEmpire Web",
+          "course":"Nextjs/TypeScript/Scss",
+          "deploy":"https://www.theempire.tech/",
+          "description":"Web",
+          "img_src":"images/theempire.webp",
+          "img_alt":"theempire_logo"
         },
     ],
     "courses":[

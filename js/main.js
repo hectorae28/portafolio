@@ -35,7 +35,7 @@ data.personalProjects.map(item=>{
     `
 })
 data.collabprojects.map(item=>{
-    item.deploy?
+    (item.deploy & item.repo) ?
     $collabProjects.innerHTML += `
     <article class="project">
         <div class="project-details">
@@ -49,7 +49,7 @@ data.collabprojects.map(item=>{
             <img class="project-image" width="500" src="${item.img_src}" alt="${item.img_alt}">
         </figure>
     </article> 
-    `:
+    `:(item.repo?
     $collabProjects.innerHTML += `
     <article class="project">
         <div class="project-details">
@@ -62,7 +62,19 @@ data.collabprojects.map(item=>{
             <img class="project-image" width="500" src="${item.img_src}" alt="${item.img_alt}">
         </figure>
     </article> 
-    `
+    `:
+    $collabProjects.innerHTML += `
+    <article class="project">
+        <div class="project-details">
+            <h3 class="project-title">${item.title}</h3>
+            <h6 class="project-course">${item.course}</h6>
+            <p class="project-url"><small><strong>Puedes verlo en:</strong> <a href="${item.deploy}" target="_blank"><span>${item.deploy}</span></a></small></p>
+            <p class="project-description">${item.description}</a></p>
+        </div>
+        <figure class="project-imageContainer">
+            <img class="project-image" width="500" src="${item.img_src}" alt="${item.img_alt}">
+        </figure>
+    </article> `)
 })
 data.courses.map(item=>{
     $couses.innerHTML+=`

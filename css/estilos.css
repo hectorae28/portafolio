@@ -95,6 +95,11 @@ h2 {
 	flex-direction: column-reverse;
 }
 
+#collab_projects {
+  display: flex;
+  flex-direction: column-reverse;
+}
+
 .project {
 	border: 1px solid #ccc;
 	border-radius: 10px;
@@ -255,7 +260,7 @@ h2 {
 	flex-wrap: inherit;
 }
 
-@media screen and (max-width: 1023px) {
+@media screen and (max-width: 1000px) {
 	.menu {
 		display: none;
 	}
