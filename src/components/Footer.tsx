@@ -19,7 +19,7 @@ const Footer = () => {
             <Image
               width={50}
               height={50}
-              src={"/images/linkedin.svg"}
+              src={"images/linkedin.svg"}
               alt={"linkedin"}
             />
           </Link>
@@ -31,7 +31,7 @@ const Footer = () => {
             <Image
               width={50}
               height={50}
-              src={"/images/github.svg"}
+              src={"images/github.svg"}
               alt={"github"}
             />
           </Link>
@@ -43,7 +43,7 @@ const Footer = () => {
             <Image
               width={50}
               height={50}
-              src={"/images/twitter.svg"}
+              src={"images/twitter.svg"}
               alt={"twitter"}
             />
           </Link>
@@ -55,7 +55,7 @@ const Footer = () => {
             <Image
               width={50}
               height={50}
-              src={"/images/instagram.svg"}
+              src={"images/instagram.svg"}
               alt={"instagram"}
             />
           </Link>
