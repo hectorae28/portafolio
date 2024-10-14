@@ -12,19 +12,19 @@ const Hero = () => {
           <div className="flex gap-4 mt-4">
             <Link href="https://www.linkedin.com/in/hector-archer-b6286621b/" className="social-link linkedin"
               target="_blank">
-                <Image width={50} height={50} src={"/images/linkedin.svg"} alt={"linkedin"} />
+                <Image width={50} height={50} src="/images/linkedin.svg" alt="linkedin" />
               </Link>
             <Link href="https://github.com/hectorae28" className="social-link github" 
               target="_blank">
-                <Image width={50} height={50} src={"/images/github.svg"} alt={"github"} />
+                <Image width={50} height={50} src="/images/github.svg" alt="github" />
               </Link>
             <Link href="https://twitter.com/archer_hector" className="social-link twitter"
               target="_blank">
-                <Image width={50} height={50} src={"/images/twitter.svg"} alt={"twitter"} />
+                <Image width={50} height={50} src="/images/twitter.svg" alt="twitter" />
               </Link>
             <Link href="https://www.instagram.com/hectorarcher/" className="social-link instagram"
               target="_blank">
-                <Image width={50} height={50} src={"/images/instagram.svg"} alt={"instagram"} />
+                <Image width={50} height={50} src="/images/instagram.svg" alt="instagram" />
               </Link>
           </div>
 

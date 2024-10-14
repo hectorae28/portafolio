@@ -2,17 +2,6 @@
 import Link from "next/link";
 
 const Header = () => {
-  /*const scrollTo = (id: string) => {
-    const element = document.getElementById(id);
-    if (!element) return;
-    element?.scrollIntoView({ behavior: "smooth" });
-    const rect = element?.getBoundingClientRect();
-    const newTopPosition = window.scrollY + rect.top - 100;
-    window.scrollTo({
-      top: newTopPosition,
-      behavior: "smooth",
-    });
-  };*/
   return (
     <header>
       <nav className="bg-background border-gray-200 w-full px-4 lg:h-16 z-50">
@@ -21,7 +10,7 @@ const Header = () => {
             <img
               src="/images/logo.png"
               className="mr-3 h-full"
-              alt="Flowbite Logo"
+              alt="Logo"
             />
           </Link>
           <div
