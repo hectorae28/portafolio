@@ -8,7 +8,7 @@ const Header = () => {
         <div className="flex flex-wrap justify-center lg:justify-between items-center mx-auto max-w-screen-lg h-full z-10">
           <Link href="/" className="flex items-center h-full">
             <img
-              src="/images/logo.png"
+              src="images/logo.png"
               className="mr-3 h-full"
               alt="Logo"
             />

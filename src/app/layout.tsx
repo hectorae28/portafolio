@@ -16,7 +16,7 @@ export default function RootLayout({
     <html lang="es">
       <head>
         <title>Portafolio | Hector Archer</title>
-        <link rel="icon" type="image/x-icon" href="/images/favicon.png" />
+        <link rel="icon" type="image/png" href="images/favicon.png" />
       </head>
       <body>
         <Header />
