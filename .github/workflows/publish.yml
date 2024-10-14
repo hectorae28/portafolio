@@ -33,10 +33,9 @@ jobs:
       - name: Build with Next.js 
         run: npx next build
 
-      - name: Upload artifact 
-        uses: actions/upload-artifact@v3
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
         with:
-          name: out
           path: ./out
 
   deploy:
