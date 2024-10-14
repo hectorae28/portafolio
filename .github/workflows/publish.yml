@@ -34,10 +34,10 @@ jobs:
         run: npx next build
 
       - name: Upload artifact
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-pages-artifact@v3
         with:
           name: github-pages
-          path: public/
+          path: ./out
 
   deploy:
     environment:
